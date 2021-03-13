@@ -16,7 +16,7 @@
 package com.example.androiddevchallenge.data
 
 object Data {
-    private const val shortMantras = "https://images.pexels.com/photos/4515858/pexels-photo-4515858.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=360&w=640"
+    private const val shortMantras = "https://images.pexels.com/photos/2033343/pexels-photo-2033343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=360&w=640"
     private const val natureMeditations =
         "https://images.pexels.com/photos/3571551/pexels-photo-3571551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=360&w=640"
     private const val stressAndAnxiety =
