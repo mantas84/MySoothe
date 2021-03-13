@@ -24,12 +24,20 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.core.view.WindowCompat
 import androidx.navigation.compose.rememberNavController
 import com.example.androiddevchallenge.ui.theme.MyTheme
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        WindowCompat
+            .setDecorFitsSystemWindows(
+                window.apply {
+                    statusBarColor = getColor(android.R.color.transparent)
+                },
+                false
+            )
         setContent {
             val navController = rememberNavController()
             Surface(color = Color.Black) {

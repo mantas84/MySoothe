@@ -106,7 +106,7 @@ fun search() {
     TextField(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(16.dp, 28.dp, 16.dp, 0.dp)
+            .padding(16.dp, 56.dp, 16.dp, 0.dp)
             .height(56.dp),
         value = text,
         leadingIcon = {
